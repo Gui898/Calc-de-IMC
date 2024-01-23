@@ -1,0 +1,66 @@
+body{
+    font-family: Jazz LET, fantasy;
+    background-color: lime; 
+    font-style: oblique;
+}
+
+h1{
+    font-size: 38px; 
+    margin-bottom: 30px;
+    color: chartreuse;
+}
+
+.calc{
+    background-color: rgba(0, 0, 0, 0.9);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 60px;
+    border-radius: 20px;
+    color: white;
+    font-size: 22px;
+    margin-bottom: 10%;
+}
+
+input{
+    border-radius: 16px;
+    padding: 15px;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    width: 90%;
+    font-family: Jazz LET, fantasy;
+}
+
+button{
+    font-family: Jazz LET, fantasy;
+    background-color: rgb(20, 155, 209);
+    border: none;
+    border-radius: 16px;
+    padding: 15px;
+    width: 45%;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    margin-top: 50%;
+}
+
+button:hover{
+    background-color: deepskyblue;
+}
+
+p{
+    position: absolute;
+    color: black;
+    background-color: white;
+    padding: 15px;
+    width: 66%;
+    border-radius: 16px;
+    height: 60px;
+}
+
+.botao{
+    display: flex;
+    justify-content: space-between;
+}
